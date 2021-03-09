@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8ac4d0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(./wp7023522.png);
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
