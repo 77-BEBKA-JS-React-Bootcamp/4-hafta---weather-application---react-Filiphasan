@@ -1,0 +1,30 @@
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 450px) {}
+
+.navbar {
+    background-color: #28527a;
+}
+
+.nav-content {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    font-size: 3rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.nav-brand .logo {
+    text-decoration: none;
+    color: #f4d160;
+}
+
+.nav-brand .logo:hover {
+    color: #fbeeac;
+}
